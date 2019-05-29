@@ -1,0 +1,337 @@
+{
+    "products": [
+        {
+            "id": 12,
+            "productName": "Snapple",
+            "productId": "12",
+            "quantity": 74,
+            "price": 2.99,
+            "imageURI": "http://192.168.1.4:8080/images/12.png",
+            "weight": 535
+        },
+        {
+            "id": 11,
+            "productName": "7Select Organic Orange Juice",
+            "productId": "11",
+            "quantity": 65,
+            "price": 5.99,
+            "imageURI": "http://192.168.1.4:8080/images/11.png",
+            "weight": 395
+        },
+        {
+            "id": 10,
+            "productName": "5 Hour Energy Drink Shot",
+            "productId": "10",
+            "quantity": -384,
+            "price": 1.79,
+            "imageURI": "http://192.168.1.4:8080/images/10.png",
+            "weight": 73
+        },
+        {
+            "id": 9,
+            "productName": "Febreze AIR Freshener",
+            "productId": "9",
+            "quantity": 65,
+            "price": 1.99,
+            "imageURI": "http://192.168.1.4:8080/images/9.png",
+            "weight": 343
+        },
+        {
+            "id": 8,
+            "productName": "Axe Gold Body Wash",
+            "productId": "8",
+            "quantity": 84,
+            "price": 4.19,
+            "imageURI": "http://192.168.1.4:8080/images/8.png",
+            "weight": 542
+        },
+        {
+            "id": 7,
+            "productName": "Suave Men Shampoo",
+            "productId": "7",
+            "quantity": 86,
+            "price": 2.49,
+            "imageURI": "http://192.168.1.4:8080/images/7.png",
+            "weight": 891
+        },
+        {
+            "id": 6,
+            "productName": "Crest Complete Toothpaste",
+            "productId": "6",
+            "quantity": -373,
+            "price": 2.89,
+            "imageURI": "http://192.168.1.4:8080/images/6.png",
+            "weight": 136
+        },
+        {
+            "id": 5,
+            "productName": "Dove Supreme Creme Serum",
+            "productId": "5",
+            "quantity": 31,
+            "price": 2.09,
+            "imageURI": "http://192.168.1.4:8080/images/5.png",
+            "weight": 138
+        },
+        {
+            "id": 4,
+            "productName": "Crest Pro-Health Mouthwash",
+            "productId": "4",
+            "quantity": 18,
+            "price": 2.39,
+            "imageURI": "http://192.168.1.4:8080/images/4.png",
+            "weight": 553
+        },
+        {
+            "id": 3,
+            "productName": "Dove Beauty Bar",
+            "productId": "3",
+            "quantity": -86,
+            "price": 1.19,
+            "imageURI": "http://192.168.1.4:8080/images/3.png",
+            "weight": 96
+        },
+        {
+            "id": 2,
+            "productName": "Cottonelle Fresh-Care Wipes",
+            "productId": "2",
+            "quantity": 58,
+            "price": 1.89,
+            "imageURI": "http://192.168.1.4:8080/images/2.png",
+            "weight": 252
+        },
+        {
+            "id": 1,
+            "productName": "Burt’s Bees Facial Towelettes",
+            "productId": "1",
+            "quantity": 20,
+            "price": 1.79,
+            "imageURI": "http://192.168.1.4:8080/images/1.png",
+            "weight": 207
+        },
+        {
+            "id": 13,
+            "productName": "Pepsi Can",
+            "productId": "13",
+            "quantity": 58,
+            "price": 2.99,
+            "imageURI": "http://192.168.1.4:8080/images/13.png",
+            "weight": 380
+        },
+        {
+            "id": 14,
+            "productName": "Sprite Can",
+            "productId": "14",
+            "quantity": 57,
+            "price": 1.79,
+            "imageURI": "http://192.168.1.4:8080/images/14.png",
+            "weight": 380
+        },
+        {
+            "id": 15,
+            "productName": "Cocacola Can",
+            "productId": "15",
+            "quantity": 76,
+            "price": 1.89,
+            "imageURI": "http://192.168.1.4:8080/images/15.png",
+            "weight": 390
+        },
+        {
+            "id": 16,
+            "productName": "Ozarka Water",
+            "productId": "16",
+            "quantity": 88,
+            "price": 1.19,
+            "imageURI": "http://192.168.1.4:8080/images/16.png",
+            "weight": 995
+        },
+        {
+            "id": 17,
+            "productName": "Monster Energy Zero Drink",
+            "productId": "17",
+            "quantity": 81,
+            "price": 2.39,
+            "imageURI": "http://192.168.1.4:8080/images/17.png",
+            "weight": 495
+        },
+        {
+            "id": 18,
+            "productName": "International Delight French Vanilla",
+            "productId": "18",
+            "quantity": 96,
+            "price": 5.09,
+            "imageURI": "http://192.168.1.4:8080/images/18.png",
+            "weight": 1165
+        },
+        {
+            "id": 19,
+            "productName": "7-Select Sweetened Chili Mango",
+            "productId": "19",
+            "quantity": 89,
+            "price": 2.89,
+            "imageURI": "http://192.168.1.4:8080/images/19.png",
+            "weight": 117
+        },
+        {
+            "id": 20,
+            "productName": "7-Select Tropical Trail Mix",
+            "productId": "20",
+            "quantity": 84,
+            "price": 2.49,
+            "imageURI": "http://192.168.1.4:8080/images/20.png",
+            "weight": 178
+        },
+        {
+            "id": 21,
+            "productName": "7-Select Honey Lemon Drops",
+            "productId": "21",
+            "quantity": 80,
+            "price": 4.19,
+            "imageURI": "http://192.168.1.4:8080/images/21.png",
+            "weight": 126
+        },
+        {
+            "id": 22,
+            "productName": "7-Select Lemon Creme",
+            "productId": "22",
+            "quantity": 72,
+            "price": 1.99,
+            "imageURI": "http://192.168.1.4:8080/images/22.png",
+            "weight": 115
+        },
+        {
+            "id": 23,
+            "productName": "Oreo Double Smile Creme",
+            "productId": "23",
+            "quantity": 70,
+            "price": 1.79,
+            "imageURI": "http://192.168.1.4:8080/images/23.png",
+            "weight": 124
+        },
+        {
+            "id": 24,
+            "productName": "Kellogg Raisin Bran Crunch",
+            "productId": "24",
+            "quantity": 59,
+            "price": 5.99,
+            "imageURI": "http://192.168.1.4:8080/images/24.png",
+            "weight": 95
+        },
+        {
+            "id": 25,
+            "productName": "Maruchan Instant Lunch Noodle",
+            "productId": "25",
+            "quantity": 87,
+            "price": 2.99,
+            "imageURI": "http://192.168.1.4:8080/images/25.png",
+            "weight": 84
+        },
+        {
+            "id": 26,
+            "productName": "Doritos Nacho Cheese Snack",
+            "productId": "26",
+            "quantity": 77,
+            "price": 2.99,
+            "imageURI": "http://192.168.1.4:8080/images/26.png",
+            "weight": 91
+        },
+        {
+            "id": 27,
+            "productName": "Reese Peanut Butter Cups",
+            "productId": "27",
+            "quantity": 75,
+            "price": 1.79,
+            "imageURI": "http://192.168.1.4:8080/images/27.png",
+            "weight": 85
+        },
+        {
+            "id": 28,
+            "productName": "Ice Breakers Mint",
+            "productId": "28",
+            "quantity": 62,
+            "price": 1.89,
+            "imageURI": "http://192.168.1.4:8080/images/28.png",
+            "weight": 60
+        },
+        {
+            "id": 29,
+            "productName": "Wrigley SpearMint Rain",
+            "productId": "29",
+            "quantity": 60,
+            "price": 1.19,
+            "imageURI": "http://192.168.1.4:8080/images/29.png",
+            "weight": 48
+        },
+        {
+            "id": 30,
+            "productName": "Orbit White Spearmint Gum",
+            "productId": "30",
+            "quantity": 71,
+            "price": 2.39,
+            "imageURI": "http://192.168.1.4:8080/images/30.png",
+            "weight": 105
+        },
+        {
+            "id": 31,
+            "productName": "Emergen-C Vitamin C Capsules",
+            "productId": "31",
+            "quantity": 78,
+            "price": 2.09,
+            "imageURI": "http://192.168.1.4:8080/images/31.png",
+            "weight": 123
+        },
+        {
+            "id": 32,
+            "productName": "Advil Liqui Gel Capsules",
+            "productId": "32",
+            "quantity": 50,
+            "price": 2.89,
+            "imageURI": "http://192.168.1.4:8080/images/32.png",
+            "weight": 39
+        },
+        {
+            "id": 33,
+            "productName": "Vaseline Petroleum Jelly",
+            "productId": "33",
+            "quantity": 56,
+            "price": 2.49,
+            "imageURI": "http://192.168.1.4:8080/images/33.png",
+            "weight": 130
+        },
+        {
+            "id": 34,
+            "productName": "Hefty Small Trash Bags",
+            "productId": "34",
+            "quantity": 83,
+            "price": 4.19,
+            "imageURI": "http://192.168.1.4:8080/images/34.png",
+            "weight": 178
+        },
+        {
+            "id": 35,
+            "productName": "Johnson Ziploc Bags",
+            "productId": "35",
+            "quantity": 69,
+            "price": 1.99,
+            "imageURI": "http://192.168.1.4:8080/images/35.png",
+            "weight": 120
+        },
+        {
+            "id": 36,
+            "productName": "Johnson Band-Aid",
+            "productId": "36",
+            "quantity": 71,
+            "price": 1.79,
+            "imageURI": "http://192.168.1.4:8080/images/36.png",
+            "weight": 31
+        },
+        {
+            "id": 42,
+            "productName": "Kellogg's Raisin Bran Crunch Cup 111",
+            "productId": "111",
+            "quantity": 10,
+            "price": 1.79,
+            "imageURI": "https://d2ho11qqpg0ll0.cloudfront.net/images/US/210704_KLGRaisinBranCrnchCup_scroll1.png",
+            "weight": 94
+        }
+    ]
+}
