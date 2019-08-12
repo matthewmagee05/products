@@ -1,247 +1,622 @@
 {
-    "products": [
-        {
-            "id": 12,
-            "productName": "Snapple",
-            "productId": "12",
-            "quantity": 74,
-            "price": 2.99,
-            "imageURI": "http://192.168.1.4:8080/images/12.png",
-            "weight": 535
-        },
-        {
-            "id": 11,
-            "productName": "7Select Organic Orange Juice",
-            "productId": "11",
-            "quantity": 65,
-            "price": 5.99,
-            "imageURI": "http://192.168.1.4:8080/images/11.png",
-            "weight": 395
-        },
-        {
-            "id": 10,
-            "productName": "5 Hour Energy Drink Shot",
-            "productId": "10",
-            "quantity": -384,
-            "price": 1.79,
-            "imageURI": "http://192.168.1.4:8080/images/10.png",
-            "weight": 73
-        },
-        {
-            "id": 9,
-            "productName": "Febreze AIR Freshener",
-            "productId": "9",
-            "quantity": 65,
-            "price": 1.99,
-            "imageURI": "http://192.168.1.4:8080/images/9.png",
-            "weight": 343
-        },
-        {
-            "id": 8,
-            "productName": "Axe Gold Body Wash",
-            "productId": "8",
-            "quantity": 84,
-            "price": 4.19,
-            "imageURI": "http://192.168.1.4:8080/images/8.png",
-            "weight": 542
-        },
-        {
-            "id": 7,
-            "productName": "Suave Men Shampoo",
-            "productId": "7",
-            "quantity": 86,
-            "price": 2.49,
-            "imageURI": "http://192.168.1.4:8080/images/7.png",
-            "weight": 891
-        },
-        {
-            "id": 6,
-            "productName": "Crest Complete Toothpaste",
-            "productId": "6",
-            "quantity": -373,
-            "price": 2.89,
-            "imageURI": "http://192.168.1.4:8080/images/6.png",
-            "weight": 136
-        },
-        {
-            "id": 5,
-            "productName": "Dove Supreme Creme Serum",
-            "productId": "5",
-            "quantity": 31,
-            "price": 2.09,
-            "imageURI": "http://192.168.1.4:8080/images/5.png",
-            "weight": 138
-        },
-        {
-            "id": 4,
-            "productName": "Crest Pro-Health Mouthwash",
-            "productId": "4",
-            "quantity": 18,
-            "price": 2.39,
-            "imageURI": "http://192.168.1.4:8080/images/4.png",
-            "weight": 553
-        },
-        {
-            "id": 3,
-            "productName": "Dove Beauty Bar",
-            "productId": "3",
-            "quantity": -86,
-            "price": 1.19,
-            "imageURI": "http://192.168.1.4:8080/images/3.png",
-            "weight": 96
-        },
-        {
-            "id": 2,
-            "productName": "Cottonelle Fresh-Care Wipes",
-            "productId": "2",
-            "quantity": 58,
-            "price": 1.89,
-            "imageURI": "http://192.168.1.4:8080/images/2.png",
-            "weight": 252
-        },
-        {
+    "id": 1,
+    "accessToken": "c0a535e6464e149d38be30dbf15bca06:98ad96ad9bcc2429693f3108da754970",
+    "expirationDate": "2019-08-12T06:21:32.000Z",
+    "status": "PENDING",
+    "createdAt": "2019-08-12T05:21:32.000Z",
+    "updatedAt": "2019-08-12T05:21:32.000Z",
+    "shoppingSessionId": 1,
+    "ShoppingSession": {
+        "id": 1,
+        "sevenNowUserEmail": "qademo11@7-11.com",
+        "sevenNowDigitalId": "abc123",
+        "sevenNowToken": "abc123xyz",
+        "sessionId": "RKWRkkqpo",
+        "accessToken": "b713feed3b40e3d8fd80f2cad505d687:45a069e786857c6915081663b36c5e04",
+        "expirationDate": "2019-08-12T06:20:58.000Z",
+        "startDate": "2018-08-12T05:21:32.000Z",
+        "endDate": "2020-08-12T05:21:32.000Z",
+        "snapshotUrl": "https://birds-eye-snapshots.s3.amazonaws.com/MattTest3_2019-07-11%2B21+13+03.467579.jpg",
+        "status": "ONGOING",
+        "createdAt": "2019-08-12T05:20:58.000Z",
+        "updatedAt": "2019-08-12T05:21:32.000Z",
+        "storeId": 1,
+        "Store": {
             "id": 1,
-            "productName": "Burt’s Bees Facial Towelettes",
-            "productId": "1",
-            "quantity": 20,
-            "price": 1.79,
-            "imageURI": "http://192.168.1.4:8080/images/1.png",
-            "weight": 207
-        },
-        {
-            "id": 13,
-            "productName": "Pepsi Can",
-            "productId": "13",
-            "quantity": 58,
-            "price": 2.99,
-            "imageURI": "http://192.168.1.4:8080/images/13.png",
-            "weight": 380
-        },
-        {
-            "id": 14,
-            "productName": "Sprite Can",
-            "productId": "14",
-            "quantity": 57,
-            "price": 1.79,
-            "imageURI": "http://192.168.1.4:8080/images/14.png",
-            "weight": 380
-        },
-        {
-            "id": 15,
-            "productName": "Cocacola Can",
-            "productId": "15",
-            "quantity": 76,
-            "price": 1.89,
-            "imageURI": "http://192.168.1.4:8080/images/15.png",
-            "weight": 390
-        },
-        {
-            "id": 16,
-            "productName": "Ozarka Water",
-            "productId": "16",
-            "quantity": 88,
-            "price": 1.19,
-            "imageURI": "http://192.168.1.4:8080/images/16.png",
-            "weight": 995
-        },
-        {
-            "id": 17,
-            "productName": "Monster Energy Zero Drink",
-            "productId": "17",
-            "quantity": 81,
-            "price": 2.39,
-            "imageURI": "http://192.168.1.4:8080/images/17.png",
-            "weight": 495
-        },
-        {
-            "id": 18,
-            "productName": "International Delight French Vanilla",
-            "productId": "18",
-            "quantity": 96,
-            "price": 5.09,
-            "imageURI": "http://192.168.1.4:8080/images/18.png",
-            "weight": 1165
-        },
-        {
-            "id": 19,
-            "productName": "7-Select Sweetened Chili Mango",
-            "productId": "19",
-            "quantity": 89,
-            "price": 2.89,
-            "imageURI": "http://192.168.1.4:8080/images/19.png",
-            "weight": 117
-        },
-        {
-            "id": 20,
-            "productName": "7-Select Tropical Trail Mix",
-            "productId": "20",
-            "quantity": 84,
-            "price": 2.49,
-            "imageURI": "http://192.168.1.4:8080/images/20.png",
-            "weight": 178
-        },
-        {
-            "id": 21,
-            "productName": "7-Select Honey Lemon Drops",
-            "productId": "21",
-            "quantity": 80,
-            "price": 4.19,
-            "imageURI": "http://192.168.1.4:8080/images/21.png",
-            "weight": 126
-        },
-        {
-            "id": 22,
-            "productName": "7-Select Lemon Creme",
-            "productId": "22",
-            "quantity": 72,
-            "price": 1.99,
-            "imageURI": "http://192.168.1.4:8080/images/22.png",
-            "weight": 115
-        },
-        {
-            "id": 23,
-            "productName": "Oreo Double Smile Creme",
-            "productId": "23",
-            "quantity": 70,
-            "price": 1.79,
-            "imageURI": "http://192.168.1.4:8080/images/23.png",
-            "weight": 124
-        },
-        {
-            "id": 24,
-            "productName": "Kellogg Raisin Bran Crunch",
-            "productId": "24",
-            "quantity": 59,
-            "price": 5.99,
-            "imageURI": "http://192.168.1.4:8080/images/24.png",
-            "weight": 95
-        },
-        {
-            "id": 25,
-            "productName": "Maruchan Instant Lunch Noodle",
-            "productId": "25",
-            "quantity": 87,
-            "price": 2.99,
-            "imageURI": "http://192.168.1.4:8080/images/25.png",
-            "weight": 84
-        },
-        {
-            "id": 26,
-            "productName": "Doritos Nacho Cheese Snack",
-            "productId": "26",
-            "quantity": 77,
-            "price": 2.99,
-            "imageURI": "http://192.168.1.4:8080/images/26.png",
-            "weight": 91
-        },
-        {
-            "id": 27,
-            "productName": "Reese Peanut Butter Cups",
-            "productId": "27",
-            "quantity": 75,
-            "price": 1.79,
-            "imageURI": "http://192.168.1.4:8080/images/27.png",
-            "weight": 85
+            "storeName": "Cypress Waters",
+            "layoutUrl": "https://birds-eye-assets.s3.amazonaws.com/store-layouts/111",
+            "createdAt": "2019-08-12T05:13:11.000Z",
+            "updatedAt": "2019-08-12T05:13:11.000Z",
+            "Racks": [
+                {
+                    "id": 1,
+                    "left": 168.5,
+                    "top": 163.5,
+                    "width": 32.08,
+                    "height": 91.53,
+                    "angle": 0,
+                    "createdAt": "2019-08-12T05:14:16.000Z",
+                    "updatedAt": "2019-08-12T05:14:16.000Z",
+                    "storeId": 1,
+                    "ProductZones": [
+                        {
+                            "id": 1,
+                            "shelfIndex": "1",
+                            "zoneIndex": "1",
+                            "productId": "111",
+                            "productName": "Burt’s Bees Facial Towelettes",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/111.png",
+                            "productQuantity": 100,
+                            "productWeight": 207,
+                            "createdAt": "2019-08-12T05:41:18.000Z",
+                            "updatedAt": "2019-08-12T05:41:18.000Z",
+                            "rackId": 1
+                        },
+                        {
+                            "id": 2,
+                            "shelfIndex": "1",
+                            "zoneIndex": "2",
+                            "productId": "112",
+                            "productName": "Cottonelle Fresh-Care Wipes",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/112.png",
+                            "productQuantity": 100,
+                            "productWeight": 300,
+                            "createdAt": "2019-08-12T05:41:51.000Z",
+                            "updatedAt": "2019-08-12T05:41:51.000Z",
+                            "rackId": 1
+                        },
+                        {
+                            "id": 3,
+                            "shelfIndex": "1",
+                            "zoneIndex": "3",
+                            "productId": "113",
+                            "productName": "Dove Beauty Bar",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/113.png",
+                            "productQuantity": 100,
+                            "productWeight": 400,
+                            "createdAt": "2019-08-12T05:42:22.000Z",
+                            "updatedAt": "2019-08-12T05:42:22.000Z",
+                            "rackId": 1
+                        },
+                        {
+                            "id": 4,
+                            "shelfIndex": "2",
+                            "zoneIndex": "1",
+                            "productId": "121",
+                            "productName": "Crest Pro-Health Mouthwash",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/121.png",
+                            "productQuantity": 100,
+                            "productWeight": 200,
+                            "createdAt": "2019-08-12T05:43:29.000Z",
+                            "updatedAt": "2019-08-12T05:43:29.000Z",
+                            "rackId": 1
+                        },
+                        {
+                            "id": 5,
+                            "shelfIndex": "2",
+                            "zoneIndex": "2",
+                            "productId": "122",
+                            "productName": "Dove Supreme Creme Serum",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/122.png",
+                            "productQuantity": 100,
+                            "productWeight": 200,
+                            "createdAt": "2019-08-12T05:44:05.000Z",
+                            "updatedAt": "2019-08-12T05:44:05.000Z",
+                            "rackId": 1
+                        },
+                        {
+                            "id": 6,
+                            "shelfIndex": "2",
+                            "zoneIndex": "3",
+                            "productId": "123",
+                            "productName": "Crest Complete Toothpaste",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/123.png",
+                            "productQuantity": 100,
+                            "productWeight": 100,
+                            "createdAt": "2019-08-12T05:44:38.000Z",
+                            "updatedAt": "2019-08-12T05:44:38.000Z",
+                            "rackId": 1
+                        },
+                        {
+                            "id": 7,
+                            "shelfIndex": "3",
+                            "zoneIndex": "1",
+                            "productId": "131",
+                            "productName": "Suave Men Shampoo",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/131.png",
+                            "productQuantity": 100,
+                            "productWeight": 123,
+                            "createdAt": "2019-08-12T05:45:09.000Z",
+                            "updatedAt": "2019-08-12T05:45:09.000Z",
+                            "rackId": 1
+                        },
+                        {
+                            "id": 8,
+                            "shelfIndex": "3",
+                            "zoneIndex": "2",
+                            "productId": "132",
+                            "productName": "Axe Gold Body Wash",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/132.png",
+                            "productQuantity": 100,
+                            "productWeight": 300,
+                            "createdAt": "2019-08-12T05:45:51.000Z",
+                            "updatedAt": "2019-08-12T05:45:51.000Z",
+                            "rackId": 1
+                        },
+                        {
+                            "id": 9,
+                            "shelfIndex": "3",
+                            "zoneIndex": "3",
+                            "productId": "133",
+                            "productName": "Febreze AIR Freshener",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/133.png",
+                            "productQuantity": 100,
+                            "productWeight": 123,
+                            "createdAt": "2019-08-12T05:46:21.000Z",
+                            "updatedAt": "2019-08-12T05:46:21.000Z",
+                            "rackId": 1
+                        }
+                    ],
+                    "Cameras": [
+                        {
+                            "id": 13,
+                            "type": "ipcam-13",
+                            "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/Entrance/playlist.m3u8?DVR",
+                            "createdAt": "2019-08-12T05:15:51.000Z",
+                            "updatedAt": "2019-08-12T05:15:51.000Z",
+                            "rackId": 1,
+                            "storeId": null,
+                            "CameraRecordings": [
+                                {
+                                    "id": 25,
+                                    "startTime": "2019-07-16T20:20:01.000Z",
+                                    "endTime": "2019-07-16T20:25:01.000Z",
+                                    "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1114_2019-07-16-20.25.01.441-UTC.mp4",
+                                    "createdAt": "2019-08-12T05:35:00.000Z",
+                                    "updatedAt": "2019-08-12T05:35:00.000Z",
+                                    "cameraId": 13
+                                },
+                                {
+                                    "id": 26,
+                                    "startTime": "2019-07-16T20:25:01.000Z",
+                                    "endTime": "2019-07-16T20:30:01.000Z",
+                                    "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1114_2019-07-16-20.30.01.695-UTC.mp4",
+                                    "createdAt": "2019-08-12T05:35:00.000Z",
+                                    "updatedAt": "2019-08-12T05:35:00.000Z",
+                                    "cameraId": 13
+                                }
+                            ]
+                        },
+                        {
+                            "id": 14,
+                            "type": "ipcam-14",
+                            "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/MiddleFacingBack/playlist.m3u8?DVR",
+                            "createdAt": "2019-08-12T05:16:12.000Z",
+                            "updatedAt": "2019-08-12T05:16:12.000Z",
+                            "rackId": 1,
+                            "storeId": null,
+                            "CameraRecordings": [
+                                {
+                                    "id": 29,
+                                    "startTime": "2019-07-16T20:20:01.000Z",
+                                    "endTime": "2019-07-16T20:25:01.000Z",
+                                    "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1114_2019-07-16-20.25.01.441-UTC.mp4",
+                                    "createdAt": "2019-08-12T05:35:00.000Z",
+                                    "updatedAt": "2019-08-12T05:35:00.000Z",
+                                    "cameraId": 14
+                                },
+                                {
+                                    "id": 30,
+                                    "startTime": "2019-07-16T20:25:01.000Z",
+                                    "endTime": "2019-07-16T20:30:01.000Z",
+                                    "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1114_2019-07-16-20.30.01.695-UTC.mp4",
+                                    "createdAt": "2019-08-12T05:35:00.000Z",
+                                    "updatedAt": "2019-08-12T05:35:00.000Z",
+                                    "cameraId": 14
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "left": 53,
+                    "top": 26,
+                    "width": 30,
+                    "height": 80,
+                    "angle": 89.27,
+                    "createdAt": "2019-08-12T05:14:43.000Z",
+                    "updatedAt": "2019-08-12T05:14:43.000Z",
+                    "storeId": 1,
+                    "ProductZones": [
+                        {
+                            "id": 10,
+                            "shelfIndex": "1",
+                            "zoneIndex": "1",
+                            "productId": "211",
+                            "productName": "Pepsi Can",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/221.png",
+                            "productQuantity": 100,
+                            "productWeight": 12312,
+                            "createdAt": "2019-08-12T05:46:49.000Z",
+                            "updatedAt": "2019-08-12T05:46:49.000Z",
+                            "rackId": 2
+                        },
+                        {
+                            "id": 11,
+                            "shelfIndex": "1",
+                            "zoneIndex": "2",
+                            "productId": "212",
+                            "productName": "Select Organic Orange Juice",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/212.png",
+                            "productQuantity": 100,
+                            "productWeight": 12312,
+                            "createdAt": "2019-08-12T05:47:24.000Z",
+                            "updatedAt": "2019-08-12T05:47:24.000Z",
+                            "rackId": 2
+                        },
+                        {
+                            "id": 12,
+                            "shelfIndex": "1",
+                            "zoneIndex": "3",
+                            "productId": "213",
+                            "productName": "Snapple",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/213.png",
+                            "productQuantity": 100,
+                            "productWeight": 21312,
+                            "createdAt": "2019-08-12T05:47:52.000Z",
+                            "updatedAt": "2019-08-12T05:47:52.000Z",
+                            "rackId": 2
+                        },
+                        {
+                            "id": 13,
+                            "shelfIndex": "1",
+                            "zoneIndex": "4",
+                            "productId": "214",
+                            "productName": "5 Hour Energy Drink Shot",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/211.png",
+                            "productQuantity": 100,
+                            "productWeight": 12312,
+                            "createdAt": "2019-08-12T05:48:20.000Z",
+                            "updatedAt": "2019-08-12T05:48:20.000Z",
+                            "rackId": 2
+                        },
+                        {
+                            "id": 14,
+                            "shelfIndex": "2",
+                            "zoneIndex": "1",
+                            "productId": "221",
+                            "productName": "Monster Energy Zero Drink",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/232.png",
+                            "productQuantity": 100,
+                            "productWeight": 123123,
+                            "createdAt": "2019-08-12T05:48:54.000Z",
+                            "updatedAt": "2019-08-12T05:48:54.000Z",
+                            "rackId": 2
+                        },
+                        {
+                            "id": 15,
+                            "shelfIndex": "2",
+                            "zoneIndex": "2",
+                            "productId": "222",
+                            "productName": "Sprite Can",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/222.png",
+                            "productQuantity": 100,
+                            "productWeight": 123,
+                            "createdAt": "2019-08-12T05:49:23.000Z",
+                            "updatedAt": "2019-08-12T05:49:23.000Z",
+                            "rackId": 2
+                        },
+                        {
+                            "id": 16,
+                            "shelfIndex": "2",
+                            "zoneIndex": "3",
+                            "productId": "223",
+                            "productName": "Cocacola Can",
+                            "productImageUrl": "https://birds-eye-assets.s3.amazonaws.com/products/223.png",
+                            "productQuantity": 100,
+                            "productWeight": 123123,
+                            "createdAt": "2019-08-12T05:49:49.000Z",
+                            "updatedAt": "2019-08-12T05:49:49.000Z",
+                            "rackId": 2
+                        }
+                    ],
+                    "Cameras": [
+                        {
+                            "id": 16,
+                            "type": "ipcam-16",
+                            "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/Entrance/playlist.m3u8?DVR",
+                            "createdAt": "2019-08-12T05:15:51.000Z",
+                            "updatedAt": "2019-08-12T05:15:51.000Z",
+                            "rackId": 2,
+                            "storeId": null,
+                            "CameraRecordings": [
+                                {
+                                    "id": 27,
+                                    "startTime": "2019-07-16T20:20:01.000Z",
+                                    "endTime": "2019-07-16T20:25:01.000Z",
+                                    "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1112_2019-07-16-20.25.01.821-UTC.mp4",
+                                    "createdAt": "2019-08-12T05:36:29.000Z",
+                                    "updatedAt": "2019-08-12T05:36:29.000Z",
+                                    "cameraId": 16
+                                },
+                                {
+                                    "id": 28,
+                                    "startTime": "2019-07-16T20:25:00.000Z",
+                                    "endTime": "2019-07-16T20:30:00.000Z",
+                                    "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1112_2019-07-16-20.35.00.216-UTC.mp4",
+                                    "createdAt": "2019-08-12T05:37:25.000Z",
+                                    "updatedAt": "2019-08-12T05:37:25.000Z",
+                                    "cameraId": 16
+                                }
+                            ]
+                        },
+                        {
+                            "id": 17,
+                            "type": "ipcam-17",
+                            "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/MiddleFacingBack/playlist.m3u8?DVR",
+                            "createdAt": "2019-08-12T05:16:12.000Z",
+                            "updatedAt": "2019-08-12T05:16:12.000Z",
+                            "rackId": 2,
+                            "storeId": null,
+                            "CameraRecordings": [
+                                {
+                                    "id": 32,
+                                    "startTime": "2019-07-16T20:20:01.000Z",
+                                    "endTime": "2019-07-16T20:25:01.000Z",
+                                    "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1112_2019-07-16-20.25.01.821-UTC.mp4",
+                                    "createdAt": "2019-08-12T05:36:29.000Z",
+                                    "updatedAt": "2019-08-12T05:36:29.000Z",
+                                    "cameraId": 17
+                                },
+                                {
+                                    "id": 33,
+                                    "startTime": "2019-07-16T20:25:00.000Z",
+                                    "endTime": "2019-07-16T20:30:00.000Z",
+                                    "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1112_2019-07-16-20.35.00.216-UTC.mp4",
+                                    "createdAt": "2019-08-12T05:37:25.000Z",
+                                    "updatedAt": "2019-08-12T05:37:25.000Z",
+                                    "cameraId": 17
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Cameras": [
+                {
+                    "id": 1,
+                    "type": "ipcam-01",
+                    "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/Entrance/playlist.m3u8?DVR",
+                    "createdAt": "2019-08-12T05:15:51.000Z",
+                    "updatedAt": "2019-08-12T05:15:51.000Z",
+                    "rackId": null,
+                    "storeId": 1,
+                    "CameraRecordings": [
+                        {
+                            "id": 1,
+                            "startTime": "2019-07-16T20:20:01.000Z",
+                            "endTime": "2019-07-16T20:25:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.25.01.190-UTC.mp4",
+                            "createdAt": "2019-08-12T05:30:52.000Z",
+                            "updatedAt": "2019-08-12T05:30:52.000Z",
+                            "cameraId": 1
+                        },
+                        {
+                            "id": 2,
+                            "startTime": "2019-07-16T20:25:01.000Z",
+                            "endTime": "2019-07-16T20:30:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.30.01.431-UTC.mp4",
+                            "createdAt": "2019-08-12T05:31:32.000Z",
+                            "updatedAt": "2019-08-12T05:31:32.000Z",
+                            "cameraId": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "ipcam-02",
+                    "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/MiddleFacingBack/playlist.m3u8?DVR",
+                    "createdAt": "2019-08-12T05:16:12.000Z",
+                    "updatedAt": "2019-08-12T05:16:12.000Z",
+                    "rackId": null,
+                    "storeId": 1,
+                    "CameraRecordings": [
+                        {
+                            "id": 3,
+                            "startTime": "2019-07-16T20:20:01.000Z",
+                            "endTime": "2019-07-16T20:25:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.25.01.190-UTC.mp4",
+                            "createdAt": "2019-08-12T05:30:52.000Z",
+                            "updatedAt": "2019-08-12T05:30:52.000Z",
+                            "cameraId": 2
+                        },
+                        {
+                            "id": 4,
+                            "startTime": "2019-07-16T20:25:01.000Z",
+                            "endTime": "2019-07-16T20:30:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.30.01.431-UTC.mp4",
+                            "createdAt": "2019-08-12T05:31:32.000Z",
+                            "updatedAt": "2019-08-12T05:31:32.000Z",
+                            "cameraId": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "type": "ipcam-03",
+                    "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/Entrance/playlist.m3u8?DVR",
+                    "createdAt": "2019-08-12T05:15:51.000Z",
+                    "updatedAt": "2019-08-12T05:15:51.000Z",
+                    "rackId": null,
+                    "storeId": 1,
+                    "CameraRecordings": [
+                        {
+                            "id": 6,
+                            "startTime": "2019-07-16T20:20:01.000Z",
+                            "endTime": "2019-07-16T20:25:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.25.01.190-UTC.mp4",
+                            "createdAt": "2019-08-12T05:30:52.000Z",
+                            "updatedAt": "2019-08-12T05:30:52.000Z",
+                            "cameraId": 3
+                        },
+                        {
+                            "id": 7,
+                            "startTime": "2019-07-16T20:25:01.000Z",
+                            "endTime": "2019-07-16T20:30:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.30.01.431-UTC.mp4",
+                            "createdAt": "2019-08-12T05:31:32.000Z",
+                            "updatedAt": "2019-08-12T05:31:32.000Z",
+                            "cameraId": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "ipcam-04",
+                    "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/MiddleFacingBack/playlist.m3u8?DVR",
+                    "createdAt": "2019-08-12T05:16:12.000Z",
+                    "updatedAt": "2019-08-12T05:16:12.000Z",
+                    "rackId": null,
+                    "storeId": 1,
+                    "CameraRecordings": [
+                        {
+                            "id": 9,
+                            "startTime": "2019-07-16T20:20:01.000Z",
+                            "endTime": "2019-07-16T20:25:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.25.01.190-UTC.mp4",
+                            "createdAt": "2019-08-12T05:30:52.000Z",
+                            "updatedAt": "2019-08-12T05:30:52.000Z",
+                            "cameraId": 4
+                        },
+                        {
+                            "id": 10,
+                            "startTime": "2019-07-16T20:25:01.000Z",
+                            "endTime": "2019-07-16T20:30:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.30.01.431-UTC.mp4",
+                            "createdAt": "2019-08-12T05:31:32.000Z",
+                            "updatedAt": "2019-08-12T05:31:32.000Z",
+                            "cameraId": 4
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "ipcam-05",
+                    "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/Entrance/playlist.m3u8?DVR",
+                    "createdAt": "2019-08-12T05:15:51.000Z",
+                    "updatedAt": "2019-08-12T05:15:51.000Z",
+                    "rackId": null,
+                    "storeId": 1,
+                    "CameraRecordings": [
+                        {
+                            "id": 12,
+                            "startTime": "2019-07-16T20:20:01.000Z",
+                            "endTime": "2019-07-16T20:25:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.25.01.190-UTC.mp4",
+                            "createdAt": "2019-08-12T05:30:52.000Z",
+                            "updatedAt": "2019-08-12T05:30:52.000Z",
+                            "cameraId": 5
+                        },
+                        {
+                            "id": 13,
+                            "startTime": "2019-07-16T20:25:01.000Z",
+                            "endTime": "2019-07-16T20:30:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.30.01.431-UTC.mp4",
+                            "createdAt": "2019-08-12T05:31:32.000Z",
+                            "updatedAt": "2019-08-12T05:31:32.000Z",
+                            "cameraId": 5
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type": "ipcam-06",
+                    "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/MiddleFacingBack/playlist.m3u8?DVR",
+                    "createdAt": "2019-08-12T05:16:12.000Z",
+                    "updatedAt": "2019-08-12T05:16:12.000Z",
+                    "rackId": null,
+                    "storeId": 1,
+                    "CameraRecordings": [
+                        {
+                            "id": 15,
+                            "startTime": "2019-07-16T20:20:01.000Z",
+                            "endTime": "2019-07-16T20:25:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.25.01.190-UTC.mp4",
+                            "createdAt": "2019-08-12T05:30:52.000Z",
+                            "updatedAt": "2019-08-12T05:30:52.000Z",
+                            "cameraId": 6
+                        },
+                        {
+                            "id": 16,
+                            "startTime": "2019-07-16T20:25:01.000Z",
+                            "endTime": "2019-07-16T20:30:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.30.01.431-UTC.mp4",
+                            "createdAt": "2019-08-12T05:31:32.000Z",
+                            "updatedAt": "2019-08-12T05:31:32.000Z",
+                            "cameraId": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type": "ipcam-07",
+                    "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/Entrance/playlist.m3u8?DVR",
+                    "createdAt": "2019-08-12T05:15:51.000Z",
+                    "updatedAt": "2019-08-12T05:15:51.000Z",
+                    "rackId": null,
+                    "storeId": 1,
+                    "CameraRecordings": [
+                        {
+                            "id": 18,
+                            "startTime": "2019-07-16T20:20:01.000Z",
+                            "endTime": "2019-07-16T20:25:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.25.01.190-UTC.mp4",
+                            "createdAt": "2019-08-12T05:30:52.000Z",
+                            "updatedAt": "2019-08-12T05:30:52.000Z",
+                            "cameraId": 7
+                        },
+                        {
+                            "id": 19,
+                            "startTime": "2019-07-16T20:25:01.000Z",
+                            "endTime": "2019-07-16T20:30:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.30.01.431-UTC.mp4",
+                            "createdAt": "2019-08-12T05:31:32.000Z",
+                            "updatedAt": "2019-08-12T05:31:32.000Z",
+                            "cameraId": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "type": "ipcam-08",
+                    "liveStreamUrl": "http://34.207.169.115:1935/HITL_Live/MiddleFacingBack/playlist.m3u8?DVR",
+                    "createdAt": "2019-08-12T05:16:12.000Z",
+                    "updatedAt": "2019-08-12T05:16:12.000Z",
+                    "rackId": null,
+                    "storeId": 1,
+                    "CameraRecordings": [
+                        {
+                            "id": 21,
+                            "startTime": "2019-07-16T20:20:01.000Z",
+                            "endTime": "2019-07-16T20:25:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.25.01.190-UTC.mp4",
+                            "createdAt": "2019-08-12T05:30:52.000Z",
+                            "updatedAt": "2019-08-12T05:30:52.000Z",
+                            "cameraId": 8
+                        },
+                        {
+                            "id": 22,
+                            "startTime": "2019-07-16T20:25:01.000Z",
+                            "endTime": "2019-07-16T20:30:01.000Z",
+                            "recordingUrl": "http://birds-eye-wowza-vod.s3.amazonaws.com/111_1115_2019-07-16-20.30.01.431-UTC.mp4",
+                            "createdAt": "2019-08-12T05:31:32.000Z",
+                            "updatedAt": "2019-08-12T05:31:32.000Z",
+                            "cameraId": 8
+                        }
+                    ]
+                }
+            ]
         }
-    ]
+    }
 }
